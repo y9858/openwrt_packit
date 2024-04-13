@@ -100,12 +100,12 @@ adjust_getty_config
 adjust_samba_config
 adjust_nfs_config "vda4"
 adjust_openssh_config
-adjust_openclash_config
-use_xrayplug_replace_v2rayplug
+#adjust_openclash_config
+#use_xrayplug_replace_v2rayplug
 create_fstab_config
 adjust_turboacc_config
 adjust_ntfs_config
-adjust_mosdns_config
+#adjust_mosdns_config
 patch_admin_status_index_html
 adjust_kernel_env
 write_release_info
