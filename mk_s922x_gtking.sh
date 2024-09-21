@@ -38,7 +38,7 @@ TGT_IMG="${WORK_DIR}/openwrt_${SOC}_${BOARD}_${OPENWRT_VER}_k${KERNEL_VERSION}${
 ###########################################################################
 KMOD="${PWD}/files/kmod"
 KMOD_BLACKLIST="${PWD}/files/kmod_blacklist"
-MAC_SCRIPT1="${PWD}/files/fix_wifi_macaddr.sh"
+#MAC_SCRIPT1="${PWD}/files/fix_wifi_macaddr.sh"
 MAC_SCRIPT2="${PWD}/files/find_macaddr.pl"
 MAC_SCRIPT3="${PWD}/files/inc_macaddr.pl"
 CPUSTAT_SCRIPT="${PWD}/files/cpustat"
@@ -83,7 +83,7 @@ UBOOT_WITHOUT_FIP_HOME="${PWD}/files/meson_btld/without_fip"
 UBOOT_WITHOUT_FIP="u-boot-gtkingpro.bin"
 
 # 20210208 add
-WIRELESS_CONFIG="${PWD}/files/s922x/wireless"
+#WIRELESS_CONFIG="${PWD}/files/s922x/wireless"
 
 # 20210307 add
 SS_LIB="${PWD}/files/ss-glibc/lib-glibc.tar.xz"
@@ -197,13 +197,13 @@ adjust_qbittorrent_config
 adjust_getty_config
 adjust_samba_config
 adjust_nfs_config "mmcblk2p4"
-adjust_openssh_config
-adjust_openclash_config
-use_xrayplug_replace_v2rayplug
+#adjust_openssh_config
+#adjust_openclash_config
+#use_xrayplug_replace_v2rayplug
 create_fstab_config
 adjust_turboacc_config
 adjust_ntfs_config
-adjust_mosdns_config
+#adjust_mosdns_config
 patch_admin_status_index_html
 adjust_kernel_env
 copy_uboot_to_fs
